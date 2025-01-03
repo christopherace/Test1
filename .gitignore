@@ -1,0 +1,17 @@
+# Ignore IDE settings (like VSCode)
+.vscode/
+
+# Ignore node_modules (for Node.js projects)
+threeJsTest1/node_modules/
+
+# Ignore build artifacts
+threeJsTest1/dist/
+threeJsTest1/build/
+threeJsTest1/.parcel-cache/
+threeJsTest1/.parcel-cache/data.mdb
+
+# Ignore log files
+*.log
+
+# Ignore environment variable files
+.env
