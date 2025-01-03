@@ -1,0 +1,19 @@
+{
+  "name": "threejstest1",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "parcel": "^2.13.3"
+  },
+  "dependencies": {
+    "dat.gui": "^0.7.9",
+    "three": "^0.172.0"
+  }
+}
