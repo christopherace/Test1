@@ -48,7 +48,7 @@ scene.add(box);
 
 const planeGeometry = new THREE.PlaneGeometry(60, 60);
 const planeMaterial = new THREE.MeshStandardMaterial({
-    color: 0xFFFFFF,
+    color: 'GREEN',
     side: THREE.DoubleSide
 });
 const plane = new THREE.Mesh(planeGeometry, planeMaterial);
@@ -89,7 +89,7 @@ scene.add(dLightShadowHelper);
 */
 
 /**/
-const spotLight = new THREE.SpotLight(0xFFFFFF);
+const spotLight = new THREE.SpotLight("0XFFFFFF");
 scene.add(spotLight);
 spotLight.position.set(-100, 100, 0);
 spotLight.intensity = 50000;
